@@ -28,3 +28,11 @@
 // store the result in a variable
 // print an emoji to the console based on the result (😊, 😞, 😐)
 // kudos to you if you use a switch statement for this
+
+// 9. create an array `foods` with three of your favorite foods
+// loop through the array and log each food to the console (use a for loop)
+// hint: you can get the length of an array with `array.length`
+
+// 10. create an object `person` with properties `name`, `age` and `favoriteFoods`
+// use the array `foods` as the value for the `favoriteFoods` property
+// log the object to the console
