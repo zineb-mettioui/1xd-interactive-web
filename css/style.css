@@ -1,0 +1,30 @@
+:root {
+    --fontSizeXS: 0.5rem;
+    --fontSizeS: 0.707rem;
+    --fontSize: 1rem;
+    --fontSizeM: 1.414rem;
+    --fontSizeL: 1.999rem;
+    --fontSizeXL: 2.827rem;
+    --fontSizeXXL: 3.998rem;
+  
+    --spacingXS: 0.5rem;
+    --spacingS: 0.707rem;
+    --spacing: 1rem;
+    --spacingM: 1.414rem;
+    --spacingL: 1.999rem;
+    --spacingXL: 2.827rem;
+    --spacingXXL: 3.998rem;
+  }
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: var(--spacingL)
+}
+
+footer {
+    margin-top: 2em;
+}
+
+footer p {
+    font-size: 0.8em;
+    margin: 0.1em
+}

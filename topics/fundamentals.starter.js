@@ -19,10 +19,12 @@
 
 // 6. write a function named greet() that wishes you a nice day like `Hi there, [your name]! Have a nice day!`
 // hint: you can use string interpolation with backticks to insert your name into the string
+// hint: the function should take [your name] as an argument
 // use the function to print the message to the console
 
 // 7. write a function named calculateAge() that calculates your age and logs it to the console
 // use the function to print your age to the console
+// hint: the function should take your birthyear as an argument
 
 // 8. use prompt() to ask if you how you are feeling today ("good", "bad", "ok")
 // store the result in a variable
