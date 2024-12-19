@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Web — DOM</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <nav>
@@ -20,15 +20,47 @@
 
         <h3>Mozilla Developer Network</h3>
         <ul>
-            <li></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction">Introduction to the DOM</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById">getElementById()</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector">querySelector()</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll">querySelectorAll()</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement">createElement()</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML">innerHTML</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute">setAttribute()</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute">getAttribute()</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style">style</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild">appendChild()</a></li>
+
         </ul>
         
         <h2>Instructions</h2>
         <p>
-            Let's start with the basics, read the instructions in <code>topics/dom.js</code>
+            Let's start with the basics, read the instructions in <code>topics/dom.starter.js</code>
         </p>
     </header>
 
-    <script src="fundamentals.solution.js"></script>
+    <section class="questions">
+        <div>
+            <h4>1 - get an element by id</h4>
+            <p id="paragraph1">Never gonna give you up</p>
+            <p id="paragraph2">Never gonna let you down</p>
+        </div>
+
+        <div>
+            <h4>2 - change the innerHTML of a element</h4>
+            <p id="paragraph3">Never gonna run around</p>
+        </div>
+
+        <div>
+            <h4>3 - get multiple elements by class</h4>
+            <span class="grabme">👀</span>
+            <span class="grabme">👀</span>
+            <span class="grabme">👀</span>
+            <span class="grabme">👀</span>
+            <span class="grabme">👀</span>
+        </div>
+    </section>
+
+    <script src="dom.starter.js"></script>
 </body>
 </html>
