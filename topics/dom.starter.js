@@ -21,8 +21,8 @@ ______ ________  ___
 // next, loop over the elements and change the innerHTML to another emoji
 // hint: use the querySelectorAll function, use the .forEach method (or a for loop), and the .innerHTML property
 
-// loop over elements
-
-// change the classname
+// 4 - change the CSS class
+// select the element with the id "message" and change the css class to "error"
+// hint: use the setAttribute function, or use the className property, or use the classList property
 
 // render a ul with li elements
