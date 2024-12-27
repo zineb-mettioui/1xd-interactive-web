@@ -5,13 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Events</title>
     <link rel="stylesheet" href="../css/style.css">
+    <style>
+        /* This CSS code is only used on this page for your exercices, feel free to work in here */
+        .success {
+            color: green;
+            font-weight: bold;
+        }
+
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+
+        .zones {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .zone {
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            margin: 5px;
+        }
+
+        .hiddenMessage {
+            display: none;
+        }
+    </style>
 </head>
 <body>
     <nav>
         <a href="/index.html">home</a>
     </nav>
     <header>
-        <h1>DOM — Document Object Model</h1>
+        <h1>Events</h1>
         <h2>Resources</h2>
         <h3>Videos</h3>
         <ul>
@@ -34,9 +62,39 @@
     </header>
 
     <section class="questions">
-        <h4>1 — click</h4>
         <div>
-            <button id="btn1">Click me</button>
+            <h4>1 — click</h4>
+            <p>Click the button to show an alert</p>
+            <div>
+                <button id="btn1">Click me</button>
+            </div>
+        </div>
+
+        <div>
+            <h4>2 — mouse events</h4>
+            <p>Hover over the square to color it</p>
+            <div class="zones">
+                <div id="zone1" class="zone"></div>
+            </div>
+        </div>
+
+        <div>
+            <h4>3 — preventing the default action</h4>
+            <p>Click on the link and show the hidden message</p>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="show3">Click here</a>
+            <p class="hiddenMessage">Never gonna give you up 🎵.</p>
+        </div>
+
+        <div>
+            <h4>4 — event Bubbling</h4>
+            <p>Hover over a square to color it, without manually adding 4 events</p>
+            <div class="zones" id="bubbleZone">                
+                <div class="zone1 zone"></div>
+                <div class="zone2 zone"></div>
+                <div class="zone3 zone"></div>    
+                <div class="zone4 zone"></div>
+                </div>
+            </div>
         </div>
     </section>
 
