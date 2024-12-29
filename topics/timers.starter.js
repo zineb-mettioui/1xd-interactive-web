@@ -12,4 +12,6 @@ _/  |_|__| _____   ___________  ______
 // 2 — click the start button to show a ticking clock in #timer that goes up every second
 // clicking stop should clear and stop the timer and reset the clock to 0
 
-// 3 —
+// 3 — create an image gallery that shows a new image every 5 seconds and repeats that cycle
+// use the images gallery1.jpg, gallery2.jpg, gallery3.jpg in the images/timers_intervals folder
+// use only one img tag in the html and change its src attribute (#slideshow)
