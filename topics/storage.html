@@ -19,7 +19,7 @@
         <h2>Resources</h2>
         <h3>Videos</h3>
         <ul>
-            <li></li>
+            <li><a href="https://www.youtube.com/watch?v=GihQAC1I39Q">Local Storage vs Session Storage</a></li>
         </ul>
 
         <h3>Mozilla Developer Network</h3>
@@ -39,10 +39,42 @@
 
     <section class="questions">
         <div>          
-            
+            <h4>1 - store your name</h4>
+            <p>Click the button to store your name to localstorage</p>
+            <div>
+                <button id="btn1">Save</button>
+            </div>
         </div>
 
-        
+        <div>          
+            <h4>2 - load your name</h4>
+            <p>Click the button to load your name from localstorage</p>
+            <div>
+                <button id="btn2">Load</button>
+                <span id="myName">...</span>
+            </div>
+        </div>
+
+        <div>          
+            <h4>3 - remove your name</h4>
+            <p>Click the button to remove your name completely from localstorage</p>
+            <div>
+                <button id="btn3">Remove</button>
+            </div>
+        </div>
+
+        <div>          
+            <h4>4 - Add movies</h4>
+            <p>Click the button to add a movie to your collection.</p>
+            <div>
+                <input type="text" id="movie" placeholder="Movie title">
+                <button id="btn4">Add</button>
+
+                <ul id="movieList">
+                    <li>List movies here</li>
+                </ul>
+            </div>
+        </div>
     </section>
 
     <script src="storage.starter.js"></script>
