@@ -8,14 +8,22 @@
 // 1. link this script file to your page and open your developer console
 
 // 2. create a variable that keeps track of your name (can be let, const or var)
+const myName = "Zineb";
+console.log(myName);
 
 // 3. create a variable that asks for your birthyear (use prompt() for that)
 // hint: prompt() returns a string, so you'll need to convert it to a number with parseInt()
+let birthYear = prompt("Enter your birth year");
+let Year = parseInt(birthYear, 10);
+console.log("Your birth year is:", birthYear);
 
 // 4. calculate your age (this will require grabbing the current year somehow)
 // hint: you can get the current year with new Date().getFullYear()
+let currentYear = new Date().getFullYear();
+let age = currentYear - birthYear;
 
 // 5. log your age to the console
+console.log("Your age is:", age);
 
 // 6. write a function named greet() that wishes you a nice day like `Hi there, [your name]! Have a nice day!`
 // hint: you can use string interpolation with backticks to insert your name into the string
