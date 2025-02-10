@@ -65,6 +65,19 @@ switch (feeling.toLowerCase()) {
 // loop through the array and log each food to the console (use a for loop)
 // hint: you can get the length of an array with `array.length`
 
+let foods = ["pancake", "pizza", "popcorn"];
+
+for (let i = 0; i < foods.length; i++) {
+	console.log(foods[i]);
+}
+
 // 10. create an object `person` with properties `name`, `age` and `favoriteFoods`
 // use the array `foods` as the value for the `favoriteFoods` property
 // log the object to the console
+let person = {
+	name: myName,
+	age: new Date().getFullYear() - birthYear,
+	favoriteFoods: foods,
+};
+
+console.log(person);
