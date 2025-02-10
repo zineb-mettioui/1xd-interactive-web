@@ -48,6 +48,18 @@ calculateAge(birthYear);
 // store the result in a variable
 // print an emoji to the console based on the result (😊, 😞, 😐)
 // kudos to you if you use a switch statement for this
+let feeling = prompt("How you are feeling today? (good, bad, ok)");
+
+switch (feeling.toLowerCase()) {
+	case "good":
+		console.log("😊");
+		break;
+	case "bad":
+		console.log("😞");
+		break;
+	case "ok":
+		console.log("😐");
+}
 
 // 9. create an array `foods` with three of your favorite foods
 // loop through the array and log each food to the console (use a for loop)
