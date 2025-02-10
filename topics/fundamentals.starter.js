@@ -29,10 +29,20 @@ console.log("Your age is:", age);
 // hint: you can use string interpolation with backticks to insert your name into the string
 // hint: the function should take [your name] as an argument
 // use the function to print the message to the console
+function greet(name) {
+	console.log(`Hi there, ${name}! Have a nice day!`);
+}
+greet(myName);
 
 // 7. write a function named calculateAge() that calculates your age and logs it to the console
 // use the function to print your age to the console
 // hint: the function should take your birthyear as an argument
+function calculateAge(birthYear) {
+	let currentYear = new Date().getFullYear();
+	let age = currentYear - birthYear;
+	console.log(`Your age is: ${age}`);
+}
+calculateAge(birthYear);
 
 // 8. use prompt() to ask if you how you are feeling today ("good", "bad", "ok")
 // store the result in a variable
