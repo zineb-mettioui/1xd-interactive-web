@@ -29,23 +29,32 @@ for (let i = 0; i < meals.length; i++) {
 }
 
 // 5 - add a meal called `cereal` to the `meals` array, this time using the push() function, log the variable to the console
-meals.push('cereal');  // meals is een bestaande variable, dus geen "const meals" toe te voegen 
+meals.push("cereal"); // meals is een bestaande variable, dus geen "const meals" toe te voegen
 
-console.log(meals); 
+console.log(meals);
 
 // 6 - create a variable `breakfast` and find the position of `cereal` in the `meals` array
 // hint: use the indexOf() function - log the result to the console
-const breakfast = meals.indexOf('cereal'); 
+const breakfast = meals.indexOf("cereal");
 console.log(breakfast); // positie 2; omdat sushi werd verwijder in vorig stap met pop() functie
 
 /* CHALLENGE :: TIPJAR */
 // 7 - create an array `tipjar` that will contain all our tips, add the following tips: 1, 5, 2, 2, 1
+const tipjar = [1, 5, 2, 2, 1];
+console.log(tipjar);
 
 // 8 - create a function `tip` that will add a tip to the `tipjar` array
 // hint: the function should take a parameter `amount` and add it to the `tipjar` array via `push()`
+function tip(amount) {
+	tipjar.push(amount);
+}
 
 // 9 - call the function with a tip amount of 2 and log the `tipjar` array to the console
+tip(2)
+console.log(tipjar);
 
 // 10 - create a function `total` that will calculate the total amount of the `tipjar` array
 // hint: use a loop to iterate over the array and add the values together, the function should return the result
 // log the total value of the tips to the console
+
+
